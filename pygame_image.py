@@ -22,6 +22,7 @@ def main():
         pg.display.update()
         tmr += 1        
         clock.tick(10)
+        clock.tick(200)  # 練習５
 
 
 if __name__ == "__main__":
