@@ -31,7 +31,7 @@ def main():
 
         # 背景を描画
         screen.blit(bg_img, [bg_x, 0])
-        # screen.blit(bg_img, [bg_x + 1600, 0])  # 右側の背景も描画（間延び防止）
+        screen.blit(bg_img, [bg_x + 1600, 0])  # 右側の背景も描画（間延び防止）
 
         # こうかとんを描画
         screen.blit(koukaton_img, [300, 200])
