@@ -28,7 +28,7 @@ def main():
                 return
 
         key_lst = pg.key.get_pressed()  # 練習8-3：キーの押下状態を取得
-        move_x = 0 # 移動処理を行う座標
+        move_x = -1 # 移動処理を行う座標
         move_y = 0
 
         # # こうかとんの移動処理
